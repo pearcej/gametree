@@ -9,7 +9,7 @@
 #include <iostream>
 using namespace std;
 
-// There are global constants
+// These are global constants
 const int START_STONES = 8;
 const int MAX_TAKE = 2;
 
