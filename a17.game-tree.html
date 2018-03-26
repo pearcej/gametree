@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="icon" href="http://cs.berea.edu/courses/csc236/images/favicon.png"
+      type="image/png">
+    <link rel="shortcut icon" href="http://cs.berea.edu/courses/csc236/images/favicon.png"
+      type="image/png">
+    <!--Force IE6 into quirks mode with this comment tag-->
+    <link rel="stylesheet" href="http://cs.berea.edu/courses/csc236/styles/csc236.css"
+      type="text/css">
+    <link href="http://cs.berea.edu/courses/csc236/styles/csc236.css" type="text/css"
+      rel="stylesheet">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+    <!--[if lt IE 9]>
+	<script src="scripts/html5.js"></script>	<![endif]-->
+    <script type="text/javascript" src="http://cs.berea.edu/courses/csc236/scripts/respond.min.js"></script>
+    <title> Tasks | Data Structures | Berea College</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <!-- This file is used to create the navigation bar for the assignment/lab pages -->
+      <header>
+        <nav id="skipTo">
+          <ul>
+            <li> <a href="#main" title="Skip to tasks">skip to tasks</a> </li>
+          </ul>
+        </nav>
+        <hr>
+        <h1>CSC 236 Data Structures</h1>
+        <nav>
+          <ul>
+            <li><a href="../index.html" title="tasks">TASKS</a></li>
+            <li><a href="../resources.html" title="resources">RESOURCES</a></li>
+            <li><a href="../about.html" title="about">ABOUT</a></li>
+            <li><a href="http://moodle2.berea.edu" title="Moodle2" target="_blank">MOODLE2</a></li>
+          </ul>
+        </nav>
+        <div id="logo"> <img src="http://cs.berea.edu/courses/csc236/images/bc-tree.png"
+            alt="csc236 logo">
+          <hr> </div>
+      </header>
+      <!-- end header -->
+      <div id="main">
+        <h2>Game Trees and Memoization</h2>
+        <div style="float:right; max-width:100%; width:auto; height:auto">
+          <p> A <strong>game tree</strong> is a type of recursive search
+            function that traces all possible moves of a strategy game, and the
+            result of each in an attempt to find an optimal move. Game trees are
+            a type of Artificial Intelligence, and are primarily useful in
+            scenarios that do not require real-time decision-making or have a
+            relatively low number of possible choices per play.</p>
+          <p>Memoization is often used to speed up recursion by storing the
+            results of function or method call based on the given inputs rather
+            than simply computing the result over again. Then the function just
+            returns the stored result rather than computing the result again.
+            One can think of it as a cache for function or method results. </p>
+          <h3>Objectives</h3>
+          <ul>
+            <li>Trace recursive calls in a game tree.</li>
+            <li>See what difference memoization makes to the number of branches
+              that are explored.</li>
+            <li>Convert a game written in C++ into Python.<br>
+            </li>
+          </ul>
+          <h3><br>
+            The Pick-up Stones Game</h3>
+          <p>Note: This assignment may NOT be completed with a partner--you must
+            complete it by yourself. <br>
+          </p>
+          <p>The rules of the Pick-up Stones Game are as Follows:</p>
+          <ul>
+            <li>There are a set number of stones in a pile: START_STONES</li>
+            <li>Players alternate taking at least 1 stone and at most MAX_TAKE
+              stones each turn.</li>
+            <li>The player who take the last set of stones wins.</li>
+          </ul>
+          <p>The obvious strategy is to try to leave your opponent with no
+            stones. </p>
+          <p>Please clone the repo: <a href="https://classroom.github.com/a/Yy9IOtqq"
+              target="_blank">a17-game-tree</a> In this repo you will find:
+          </p>
+          <ul>
+            <li><code>stonesmemo.cpp</code></li>
+            <li><span style="font-family: monospace;">csc236-reflection-a17.docx</span></li>
+          </ul>
+          <br>
+          Open both files. The <span style="font-family: monospace;">csc236-reflection-a17.docx<span
+              style="font-family: Arial,helvetica,sans-serif;"> </span></span>file
+          is a reflection document which will guide your understanding of the
+          following game tree. You will also be converting the <code>stonesmemo.cpp
+            </code>C++ program to Python.<br>
+          <p></p>
+          <img src="stone-game-tree.jpg" alt="Game Tree for Pick up Stones" title="Game Tree for Pick up Stones">
+          <ul>
+          </ul>
+          <div style="clear: both"></div>
+          <div id="footer"> </div>
+          <h3>To Submit </h3>
+          <strong>Note: This assignment may NOT be completed with a partner--you
+            must complete it by yourself. </strong>
+          <ol>
+            <li>Your completed Python program file stonesmemo.py in addition to
+              the files you started with.</li>
+            <li>Include the completed yourusername-A17.docx reflection document.</li>
+            <li>Submit the link to your repo into Moodle. </li>
+          </ol>
+        </div>
+        <!-- footer: do not remove the weird-looking div you see next.  It is important to push the footer to the bottom of some browsers. -->
+        <div style="clear: both"></div>
+        <div id="footer"> <br>
+          <hr>
+          <p> Copyright � 2018 | Licensed under a Creative Commons
+            Attribution-Share Alike 3.0 United States License |
+            http://cs.berea.edu/CSC236/</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
